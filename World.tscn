@@ -506,9 +506,6 @@ cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 196611, 0, 0, 196612, 0, 1, 196613, 0, 1, 196614, 0, 1, 196615, 0, 1, 196616, 0, 2, 262147, 0, 65540, 262148, 0, 131073, 262149, 0, 131073, 262150, 0, 65544, 262151, 0, 131073, 262152, 0, 131074, 327683, 0, 65539, 327686, 0, 65539, 393219, 0, 65539, 393222, 0, 65539, 458755, 0, 65539, 458758, 0, 196612, 458759, 0, 196609, 458760, 0, 196609, 458761, 0, 196609, 458762, 0, 7, 524291, 0, 131075, 524298, 0, 65539, 589834, 0, 196612, 589835, 0, 196609, 589836, 0, 7, 655372, 0, 196612, 655373, 0, 7, 720909, 0, 196612, 720910, 0, 196609, 720911, 0, 7, 786447, 0, 65539, 851983, 0, 65539, 917519, 0, 196612, 917520, 0, 7, 983056, 0, 65539, 1048592, 0, 131075 )
 
-[node name="Bush" parent="DirtPath" instance=ExtResource( 1 )]
-position = Vector2( 78, 134 )
-
 [node name="DirtCliff" type="TileMap" parent="."]
 tile_set = SubResource( 2 )
 cell_size = Vector2( 32, 32 )
@@ -519,6 +516,9 @@ tile_data = PoolIntArray( -131075, 0, 0, -131074, 0, 1, -131073, 0, 1, -196608, 
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 100, 62 )
+
+[node name="Bush2" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 78, 134 )
 
 [node name="Bush" parent="YSort" instance=ExtResource( 1 )]
 position = Vector2( 151, 86 )
